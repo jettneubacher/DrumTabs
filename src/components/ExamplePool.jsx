@@ -5,17 +5,17 @@ const examples = {
   model1: [
     {
       label: "Example 1",
-      src: "https://jettneubacher.github.io/DrumTabs/public/example-audio/example-1.1.wav",
+      src: "https://github.com/jettneubacher/DrumTabs/raw/refs/heads/main/public/example-audio/example-1.1.wav",
       filename: "example-1.1.wav",
     },
     {
       label: "Example 2",
-      src: "https://jettneubacher.github.io/DrumTabs/public/example-audio/example-1.2.wav",
+      src: "https://github.com/jettneubacher/DrumTabs/raw/refs/heads/main/public/example-audio/example-1.2.wav",
       filename: "example-1.2.wav",
     },
     {
       label: "Example 3",
-      src: "https://jettneubacher.github.io/DrumTabs/public/example-audio/example-1.3.wav",
+      src: "https://github.com/jettneubacher/DrumTabs/raw/refs/heads/main/public/example-audio/example-1.3.wav",
       filename: "example-1.3.wav",
     },
   ],

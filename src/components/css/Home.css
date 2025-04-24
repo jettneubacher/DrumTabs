@@ -1,0 +1,65 @@
+.home {
+    margin: 3rem 7.5%;
+    line-height: 1.5;
+}
+
+.home-title {
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+}
+
+.home-section {
+    padding-left: 0;
+    padding-top: 2rem;
+}
+
+.home-subtitle {
+    padding-left: 0;
+    padding-bottom: 0.5rem;
+}
+
+
+.home-ex-tabs {
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 8px;
+    font-family: monospace;
+    white-space: pre; /* preserves spacing */
+    overflow-x: auto;
+    font-size: 1.3rem;
+    line-height: 2;
+    color: var(--dark);
+    margin: 2rem auto;
+    width: fit-content;
+    text-align: left;
+}
+      
+  
+  
+
+@media (max-wdith: 700px) {
+    .home {
+        margin: 1rem 5%;
+    }
+    .home-ex-tabs {
+        font-size: 0.9rem;
+    }
+}
+
+ol, ul {
+    padding-left: 1.5rem;
+    list-style-type: initial;
+}
+
+ul {
+    list-style-type: disc;
+
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}

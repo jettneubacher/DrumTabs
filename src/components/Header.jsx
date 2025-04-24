@@ -14,6 +14,12 @@ function Header({ setActivePage, activePage }) {
 
         <div className="navbar-buttons">
           <button
+            className={`nav-button ${activePage === "home" ? "active" : ""}`}
+            onClick={() => setActivePage("home")}
+          >
+            Home
+          </button>
+          <button
             className={`nav-button ${
               activePage === "generate" ? "active" : ""
             }`}
@@ -45,6 +51,15 @@ function Header({ setActivePage, activePage }) {
 
         {/* Mobile dropdown */}
         <div className={`navbar-links-mobile ${menuOpen ? "active" : ""}`}>
+          <button
+            className="menu-btn"
+            onClick={() => {
+              setActivePage("home");
+              setMenuOpen(false);
+            }}
+          >
+            Home
+          </button>
           <button
             className="menu-btn"
             onClick={() => {

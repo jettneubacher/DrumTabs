@@ -9,7 +9,7 @@ import Home from "./components/Home.jsx";
 import "./App.css";
 
 function App() {
-  const [activePage, setActivePage] = useState("generate");
+  const [activePage, setActivePage] = useState("home");
   const [uploadedFile, setUploadedFile] = useState(null);
   const [stableFile, setStableFile] = useState("");
   const [model, setModel] = useState("model1");
@@ -106,6 +106,7 @@ function App() {
       <Header setActivePage={setActivePage} activePage={activePage} />
       <div className="page-content">
         {activePage === "about" && <About />}
+        {activePage === "home" && <Home />}
         {activePage === "generate" && (
           <Generate
             file={uploadedFile}

@@ -19,11 +19,11 @@ function App() {
   const [currentAudio, setCurrentAudio] = useState(null);
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
 
-  const handlePrediction = async () => {
+  const handlePrediction = async (generatePDF = false) => {
     setStableFile(uploadedFile);
     setLoading(true);
     try {
-      await makePrediction();
+      await makePrediction(generatePDF);
     } finally {
       setLoading(false);
     }

@@ -5,17 +5,17 @@ const examples = {
   model1: [
     {
       label: "Example 1",
-      src: "/example-audio/example-1.wav",
+      src: process.env.PUBLIC_URL + "/example-audio/example-1.1.wav",
       filename: "example-1.1.wav",
     },
     {
       label: "Example 2",
-      src: "/example-audio/example-2.wav",
+      src: process.env.PUBLIC_URL + "/example-audio/example-1.2.wav",
       filename: "example-1.2.wav",
     },
     {
       label: "Example 3",
-      src: "/example-audio/example-3.wav",
+      src: process.env.PUBLIC_URL + "/example-audio/example-1.3.wav",
       filename: "example-1.3.wav",
     },
   ],

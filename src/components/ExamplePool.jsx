@@ -21,10 +21,14 @@ const examples = {
   ],
 };
 
-const ExamplePool = ({ onExampleSelect, selectedModel }) => {
-  const [currentAudio, setCurrentAudio] = useState(null);
-  const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
-
+const ExamplePool = ({
+  onExampleSelect,
+  selectedModel,
+  currentAudio,
+  setCurrentAudio,
+  currentlyPlaying,
+  setCurrentlyPlaying,
+}) => {
   const handleExampleSelect = async (src, filename) => {
     try {
       const response = await fetch(src);

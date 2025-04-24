@@ -16,6 +16,8 @@ function App() {
   const [results, setResults] = useState([]);
   const [pdfLink, setPdfLink] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [currentAudio, setCurrentAudio] = useState(null);
+  const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
 
   const handlePrediction = async () => {
     setStableFile(uploadedFile);
@@ -115,6 +117,10 @@ function App() {
             setResults={setResults}
             loading={loading}
             stableFile={stableFile}
+            currentAudio={currentAudio}
+            setCurrentAudio={setCurrentAudio}
+            currentlyPlaying={currentlyPlaying}
+            setCurrentlyPlaying={setCurrentlyPlaying}
           />
         )}
         {activePage === "dev" && <Development />}

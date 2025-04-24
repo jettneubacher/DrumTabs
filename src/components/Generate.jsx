@@ -18,6 +18,10 @@ const Generate = ({
   setResults,
   loading,
   stableFile,
+  currentAudio,
+  setCurrentAudio,
+  currentlyPlaying,
+  setCurrentlyPlaying,
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isPanelOpen, setIsPanelOpen] = useState(true);
@@ -57,6 +61,10 @@ const Generate = ({
               <ExamplePool
                 onExampleSelect={handleExampleSelect}
                 selectedModel={model}
+                currentAudio={currentAudio}
+                setCurrentAudio={setCurrentAudio}
+                currentlyPlaying={currentlyPlaying}
+                setCurrentlyPlaying={setCurrentlyPlaying}
               />
             </div>
           </div>

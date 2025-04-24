@@ -1,0 +1,40 @@
+:root {
+  --f: 'Inter', sans-serif;
+  --text: black;
+  --pri: #C8D96F;
+  --sec: #514B23;
+  --lpri: #C4F7A1;
+  --lsec: #656839;
+  --dark: #5C573E;
+  --light: #CBC9AD;
+  --bg: white;
+  --bg2: #A5B452;
+  --gradient: linear-gradient(100deg, var(--pri), var(--sec));
+  --l-gradient: linear-gradient(100deg, var(--lpri), var(--lsec));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--f);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: var(--bg);
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+
+.page-content {
+  padding: 98px 0px;
+}

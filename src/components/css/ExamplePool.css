@@ -1,0 +1,56 @@
+.example-pool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.example-pool-label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--bg);
+    margin-bottom: 0.4rem;
+    text-align: center;
+}
+  
+  .example-box {
+    background-color: var(--light);
+    border: 0px solid var(--text);
+    border-radius: 16px;
+    padding: 1rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  .example-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .example-item button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    background-color: var(--bg2);
+    color: var(--bg);
+    transition: background-color 0.2s ease;
+  }
+  
+  .example-item button:hover {
+    background-color: var(--pri);
+    color: var(--dark);
+  }
+  
+  .preview-button {
+    margin-left: 1rem;
+    background-color: var(--bg2);
+    color: var(--bg);
+  }
+  
+  .preview-button:hover {
+    background-color: var(--pri);
+    color: var(--dark)
+  }
+  

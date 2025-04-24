@@ -54,3 +54,12 @@
     color: var(--dark)
   }
   
+
+  @media (max-width: 700px) {
+    .example-pool-label {
+      font-size: 0.9rem;
+    }
+    .example-item {
+      font-size: 0.8rem;
+    }
+  }

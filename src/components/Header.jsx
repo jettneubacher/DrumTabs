@@ -46,14 +46,7 @@ function Header({ setActivePage, activePage }) {
         {/* Mobile dropdown */}
         <div className={`navbar-links-mobile ${menuOpen ? "active" : ""}`}>
           <button
-            onClick={() => {
-              setActivePage("home");
-              setMenuOpen(false);
-            }}
-          >
-            Home
-          </button>
-          <button
+            className="menu-btn"
             onClick={() => {
               setActivePage("generate");
               setMenuOpen(false);
@@ -62,6 +55,7 @@ function Header({ setActivePage, activePage }) {
             Generate
           </button>
           <button
+            className="menu-btn"
             onClick={() => {
               setActivePage("about");
               setMenuOpen(false);
@@ -70,6 +64,7 @@ function Header({ setActivePage, activePage }) {
             About
           </button>
           <button
+            className="menu-btn"
             onClick={() => {
               setActivePage("dev");
               setMenuOpen(false);

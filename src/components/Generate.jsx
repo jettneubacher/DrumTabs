@@ -24,7 +24,7 @@ const Generate = ({
   setCurrentlyPlaying,
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isPanelOpen, setIsPanelOpen] = useState(true);
+  const [isPanelOpen, setIsPanelOpen] = useState(false);
 
   const toggleModal = () => setIsModalOpen(!isModalOpen);
   const togglePanel = () => setIsPanelOpen(!isPanelOpen);
@@ -37,7 +37,12 @@ const Generate = ({
     <>
       {/* Instructions Button */}
       <div className="instructions-btn">
-        <button onClick={toggleModal}>Instructions</button>
+        <button className="instructions-button-text" onClick={toggleModal}>
+          Instructions
+        </button>
+        <button className="instructions-button-icon" onClick={toggleModal}>
+          &#9432;
+        </button>
       </div>
       {/* Setup Toggle Button (Arrow Button) */}
       <div className="panel-toggle open-toggle" onClick={togglePanel}>

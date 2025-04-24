@@ -26,3 +26,11 @@
     color: var(--dark);
   }
   
+  @media (max-width: 700px) {
+    .model-label {
+      font-size: 0.9rem;
+    }
+    .model-dropdown {
+      font-size: 0.8rem;
+    }
+  }

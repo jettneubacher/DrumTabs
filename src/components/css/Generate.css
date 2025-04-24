@@ -15,6 +15,16 @@
     color: var(--bg);
     cursor: pointer;
   }
+
+  .instructions-button-text {
+    display: inline;
+  }
+  
+  .instructions-button-icon {
+    display: none;
+  }
+  
+
   
   /* Wrapper to anchor sidebar */
 .sidebar-wrapper {
@@ -86,7 +96,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 30;
+    z-index: 1001;
   }
   
   .modal-content {
@@ -108,4 +118,22 @@
     color: #333;
     cursor: pointer;
   }
+
+  @media (max-width: 700px) {
+    .instructions-button-text {
+      display: none;
+    }
   
+    .instructions-button-icon {
+      display: inline;
+    }
+    .open-toggle {
+      font-size:0.8rem;
+    }
+    .sidebar-wrapper {
+      top: 100px;
+      bottom: 50px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      width: 250px;      
+    }
+  }

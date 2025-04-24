@@ -18,6 +18,7 @@
     border-radius: 0.5rem;
     max-width: 500px;
     width: 90%;
+    max-height: none;
     position: relative;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     z-index: 1001;
@@ -33,4 +34,15 @@
     color: #333;
     cursor: pointer;
   }
-  
+
+  @media (max-width: 750px) {
+    .modal-content {
+      background: white;
+      color: var(--dark);
+      padding: 2rem;
+      border-radius: 0.5rem;
+      max-width: 400px;
+      max-height: 500px;
+      width: 80%;
+    }
+  }

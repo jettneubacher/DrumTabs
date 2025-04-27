@@ -4,19 +4,19 @@ import "./css/ExamplePool.css";
 const examples = {
   model1: [
     {
-      label: "Example 1",
+      label: "Sample 1",
       src: "https://jettneubacher.github.io/DrumTabs/example-audio/example-1.1.wav",
-      filename: "example-1.1.wav",
+      filename: "sample-1.1.wav",
     },
     {
-      label: "Example 2",
+      label: "Sample 2",
       src: "https://jettneubacher.github.io/DrumTabs/example-audio/example-1.2.wav",
-      filename: "example-1.2.wav",
+      filename: "sample-1.2.wav",
     },
     {
-      label: "Example 3",
+      label: "Sample 3",
       src: "https://jettneubacher.github.io/DrumTabs/example-audio/example-1.3.wav",
-      filename: "example-1.3.wav",
+      filename: "sample-1.3.wav",
     },
   ],
 };
@@ -73,20 +73,25 @@ const ExamplePool = ({
 
   return (
     <div className="example-pool">
-      <div className="example-pool-label">EXAMPLES</div>
       <div className="example-box">
+        <div className="example-pool-label">
+          <u>SAMPLES</u>
+        </div>
         {examples[selectedModel]?.map(({ label, src, filename }) => (
-          <div key={filename} className="example-item">
-            <button onClick={() => handleExampleSelect(src, filename)}>
-              {label}
-            </button>
-            <button
-              className="preview-button"
-              onClick={() => handlePlayToggle(src)}
-            >
-              {currentlyPlaying === src ? "⏹" : "▶"}
-            </button>
-          </div>
+          <>
+            <div className="ex-item-title">{label}</div>
+            <div key={filename} className="example-item">
+              <button onClick={() => handleExampleSelect(src, filename)}>
+                LOAD
+              </button>
+              <button
+                className="preview-button"
+                onClick={() => handlePlayToggle(src)}
+              >
+                {currentlyPlaying === src ? "⏹" : "▶"}
+              </button>
+            </div>
+          </>
         ))}{" "}
       </div>
     </div>

@@ -26,21 +26,30 @@ const Modal = ({ isOpen, onClose }) => {
           <li>
             <strong>Model:</strong> Pick which model you want to use and read
             'USAGE' for the given model. More info on the models is in the{" "}
-            <i>About</i> tab.
+            <i>Under the Hood</i>
+            {"  "}tab.
           </li>
           <br></br>
           <li>
-            <strong>Upload:</strong> Drag & Drop audio file into center box OR
-            search device by clicking 'Select file from device'. Select preset
-            examples in the 'Set-Up' window if you prefer.
+            <ul>
+              {" "}
+              <li>
+                <strong>Upload:</strong> Drag & Drop audio file into center box
+                OR search device by clicking 'Select file from device'.
+              </li>
+              <li>
+                <strong>Use Sample:</strong> Select a sample from the SAMPLE
+                pool above the upload box. Click on a sample's LOAD button to
+                load it.
+              </li>
+            </ul>
           </li>
           <br></br>
           <li>
             <strong>Generate:</strong> If audio file meets the requirements
-            &#40;less than 100mb and .wav&#41; - Generate the tabs to have them
-            displayed with the 'Generate' button. Alternatively, generate the
-            tabs for display AND download a pdf version with the 'Generate and
-            Download PDF' button.
+            &#40;less than 100mb and .wav&#41; - Click the Generate OR Generate
+            and Download PDf buttons to send the audio to the model and receive
+            the tabs back.
           </li>
         </ol>
       </div>

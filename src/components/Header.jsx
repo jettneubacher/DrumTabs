@@ -17,7 +17,7 @@ function Header({ setActivePage, activePage }) {
             className={`nav-button ${activePage === "home" ? "active" : ""}`}
             onClick={() => setActivePage("home")}
           >
-            Home
+            About
           </button>
           <button
             className={`nav-button ${
@@ -31,13 +31,13 @@ function Header({ setActivePage, activePage }) {
             className={`nav-button ${activePage === "about" ? "active" : ""}`}
             onClick={() => setActivePage("about")}
           >
-            About
+            Under the Hood
           </button>
           <button
             className={`nav-button ${activePage === "dev" ? "active" : ""}`}
             onClick={() => setActivePage("dev")}
           >
-            Development
+            Development Blog
           </button>
         </div>
 
@@ -58,7 +58,7 @@ function Header({ setActivePage, activePage }) {
               setMenuOpen(false);
             }}
           >
-            Home
+            About
           </button>
           <button
             className="menu-btn"
@@ -76,7 +76,7 @@ function Header({ setActivePage, activePage }) {
               setMenuOpen(false);
             }}
           >
-            About
+            Under the Hood
           </button>
           <button
             className="menu-btn"
@@ -85,7 +85,7 @@ function Header({ setActivePage, activePage }) {
               setMenuOpen(false);
             }}
           >
-            Development
+            Development Blog
           </button>
         </div>
       </nav>

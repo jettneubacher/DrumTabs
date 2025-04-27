@@ -21,6 +21,7 @@
 
 .dev-section {
     padding-top: 0.5rem;
+    padding-bottom: 2rem;
 }
 
 @media (max-wdith: 700px) {

@@ -62,21 +62,21 @@ const Generate = ({
             <div className="use-block">
               <ModelUsage selectedModel={model} />
             </div>
-            <div className="ex-block">
-              <ExamplePool
-                onExampleSelect={handleExampleSelect}
-                selectedModel={model}
-                currentAudio={currentAudio}
-                setCurrentAudio={setCurrentAudio}
-                currentlyPlaying={currentlyPlaying}
-                setCurrentlyPlaying={setCurrentlyPlaying}
-              />
-            </div>
           </div>
         </div>
       )}
       {/* Main Upload Area */}
       <div className="generate-layout-upload">
+        <div className="ex-block">
+          <ExamplePool
+            onExampleSelect={handleExampleSelect}
+            selectedModel={model}
+            currentAudio={currentAudio}
+            setCurrentAudio={setCurrentAudio}
+            currentlyPlaying={currentlyPlaying}
+            setCurrentlyPlaying={setCurrentlyPlaying}
+          />
+        </div>
         <div className="up-block">
           <Upload
             file={file}

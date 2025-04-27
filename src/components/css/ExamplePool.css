@@ -7,14 +7,25 @@
 .example-pool-label {
     font-weight: bold;
     font-size: 1.1rem;
-    color: var(--bg);
+    color: var(--dark);
     margin-bottom: 0.4rem;
     text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.example-pool-label u {
+  color: var(--dark);
+}
+
+.ex-item-title {
+  text-align: center;
+  color: var(--dark);
+  padding-bottom: 0.2rem;
 }
   
   .example-box {
     background-color: var(--light);
-    border: 0px solid var(--text);
+    border: 2px solid var(--dark);
     border-radius: 16px;
     padding: 1rem;
     padding-bottom: 0.25rem;
@@ -33,8 +44,8 @@
     border-radius: 8px;
     cursor: pointer;
     font-size: 0.8rem;
-    background-color: var(--bg2);
-    color: var(--bg);
+    background-color: var(--pri);
+    color: var(--dark);
     transition: background-color 0.2s ease;
   }
   

@@ -35,7 +35,7 @@
   position: fixed;
   background-color: var(--bg2);
   top: 100px;
-  height: 400px;
+  height: 300px;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   left: 2.5%;
@@ -52,7 +52,7 @@
 }
 
 .sel-block {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 /* Base toggle style */

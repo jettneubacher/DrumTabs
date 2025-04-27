@@ -37,12 +37,12 @@
   
   
 
-@media (max-wdith: 700px) {
+@media (max-width: 700px) {
     .home {
         margin: 1rem 5%;
     }
     .home-ex-tabs {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
 

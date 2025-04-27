@@ -63,7 +63,7 @@ function Development() {
           <ul>
             <li>
               Deployed frontend to github pages and shared with close friends,
-              fellow computer scientisits, and old professors
+              fellow computer scientists, and old professors
             </li>
             <li>
               Collected feedback for upcoming final deployment

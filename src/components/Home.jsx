@@ -28,8 +28,8 @@ function Home() {
           As mentioned above, Drum tablatures (drum tabs) are a much simpler
           type of music notation when compared to sheet music. Drum tabs are
           constant linear representations of when a certain drum is hit,
-          visualized as grid-like representations of the drum kit. Each row in a
-          single set of tablature (5 rows total for each horizontal set of tabs)
+          visualized as a grid-like layout of the drum kit. Each row in a single
+          set of tablature (5 rows total for each horizontal set of tabs)
           represents a specific part of the drum kit. For this tool, I have
           organized the drum kit into 5 main categories. Here is an example
           empty 'set' of tabs:

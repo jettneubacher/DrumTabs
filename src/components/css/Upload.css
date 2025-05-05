@@ -54,10 +54,12 @@
     width: 400px;
     height: 100px;
     background-color: var(--light);
-    border: 2px solid var(--dark);
+    border: 2px solid var(--pri);
     border-radius: 10px;
     position: relative;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
   }
 
   
@@ -69,7 +71,7 @@
   
   
   .upload-button {
-    background-color: var(--pri);
+    background-color: var(--sec);
     color: var(--dark);
     padding: 10px 20px;
     border-radius: 6px;
@@ -106,19 +108,18 @@
   }
   
   .gen-button {
-    background-color: var(--pri);
-    color: var(--dark);
+    background-color: var(--bg2);
+    color: var(--bg);
     border: none;
     padding: 8px 14px;
     border-radius: 6px;
     font-size: 1rem;
     cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
   }
   
-  .gen-button:hover {
-    background-color: var(--light);
-    color: var(--text);
-  }
+  
   
 
   @media (max-width: 750px) {

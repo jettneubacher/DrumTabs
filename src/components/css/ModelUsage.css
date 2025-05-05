@@ -14,7 +14,7 @@
   }
   
   .model-info-box {
-    background-color: var(--light);
+    background-color: var(--sec);
     color: var(--dark);
     padding: 1rem 1.5rem;
     border: 0px solid var(--text);

@@ -49,7 +49,7 @@
 .nav-button {
   background-color: var(--bg2);
   color: var(--bg);
-  border: solid 3px var(--pri);
+  border: solid 2.5px var(--pri);
   padding: 8px 12px;
   cursor: pointer;
   border-radius: 10px;
@@ -57,12 +57,12 @@
 }
 
 .nav-button:hover {
-  background-color: var(--bg);
+  background-color: var(--sec);
   color: var(--dark);
 }
 
 .nav-button.active {
-  background-color: var(--bg);
+  background-color: var(--sec);
   color: var(--dark);
 }
 
@@ -72,7 +72,7 @@
   background: none;
   border: none;
   font-size: 1.5rem;
-  color: var(--pri);
+  color: var(--sec);
   cursor: pointer;
   z-index: 1001;
 }
@@ -85,7 +85,7 @@
   position: fixed;
   top: 70px;
   right: 2.5%;
-  background-color: var(--light);
+  background-color: var(--sec);
   padding: 10px;
   border-radius: 16px;
   z-index: 5000;

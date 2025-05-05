@@ -25,10 +25,12 @@
   
   .example-box {
     background-color: var(--light);
-    border: 2px solid var(--dark);
+    border: 2px solid var(--pri);
     border-radius: 16px;
     padding: 1rem;
     padding-bottom: 0.25rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
   }
   
   .example-item {
@@ -44,7 +46,7 @@
     border-radius: 8px;
     cursor: pointer;
     font-size: 0.8rem;
-    background-color: var(--pri);
+    background-color: var(--sec);
     color: var(--dark);
     transition: background-color 0.2s ease;
   }

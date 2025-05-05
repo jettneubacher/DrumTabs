@@ -65,11 +65,10 @@ function Development() {
               Deployed frontend to github pages and shared with close friends,
               fellow computer scientists, and old professors
             </li>
+            <li>Collected feedback for upcoming final deployment</li>
             <li>
-              Collected feedback for upcoming final deployment
-              <li></li>Made the frontend much more user friendly (samples front
-              and center on the generate page, more in-depth about section,
-              etc.)
+              Made the frontend much more user friendly (samples front and
+              center on the generate page, more in-depth about section, etc.)
             </li>
           </ul>
         </div>

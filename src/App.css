@@ -1,14 +1,14 @@
 :root {
   --f: 'Inter', sans-serif;
   --text: black;
-  --pri: #C8D96F;
-  --sec: #514B23;
+  --pri: #F15152;
+  --sec: #EDB183;
   --lpri: #C4F7A1;
   --lsec: #656839;
-  --dark: #5C573E;
-  --light: #CBC9AD;
+  --dark: #3A2E39;
+  --light: #F4D8CD;
   --bg: white;
-  --bg2: #A5B452;
+  --bg2: #1E555C;
   --gradient: linear-gradient(100deg, var(--pri), var(--sec));
   --l-gradient: linear-gradient(100deg, var(--lpri), var(--lsec));
 }
